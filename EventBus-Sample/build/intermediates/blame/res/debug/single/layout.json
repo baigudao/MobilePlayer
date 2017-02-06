@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android-as-ws\\MobilePlayer\\EventBus-Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\android-as-ws\\MobilePlayer\\EventBus-Sample\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android-as-ws\\MobilePlayer\\EventBus-Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
+        "source": "E:\\android-as-ws\\MobilePlayer\\EventBus-Sample\\src\\main\\res\\layout\\activity_second.xml"
+    }
+]
