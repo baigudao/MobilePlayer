@@ -40,7 +40,6 @@ public class VideoPager extends BasePager {
     private TextView tv_nomedia;
     private ProgressBar pb_loading;
 
-
     private VideoPagerAdapter videoPagerAdapter;
 
     /**
@@ -70,7 +69,6 @@ public class VideoPager extends BasePager {
                 //文本显示
                 tv_nomedia.setVisibility(View.VISIBLE);
             }
-
 
             //ProgressBar隐藏
             pb_loading.setVisibility(View.GONE);
@@ -181,17 +179,11 @@ public class VideoPager extends BasePager {
 
 
                     }
-
                     cursor.close();
-
-
                 }
-
 
                 //Handler发消息
                 handler.sendEmptyMessage(10);
-
-
             }
         }.start();
 

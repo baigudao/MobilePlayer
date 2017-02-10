@@ -61,7 +61,6 @@ public class NetVideoPager extends BasePager {
      */
     private boolean isLoadMore = false;
 
-
     public NetVideoPager(Context context) {
         super(context);
     }

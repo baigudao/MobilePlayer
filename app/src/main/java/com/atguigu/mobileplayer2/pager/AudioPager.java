@@ -39,7 +39,6 @@ public class AudioPager extends BasePager {
     private TextView tv_nomedia;
     private ProgressBar pb_loading;
 
-
     private VideoPagerAdapter videoPagerAdapter;
 
     /**
@@ -70,7 +69,6 @@ public class AudioPager extends BasePager {
                 tv_nomedia.setVisibility(View.VISIBLE);
                 tv_nomedia.setText("没有发现音频....");
             }
-
 
             //ProgressBar隐藏
             pb_loading.setVisibility(View.GONE);
@@ -162,21 +160,12 @@ public class AudioPager extends BasePager {
 
                         String artist = cursor.getString(4);//艺术家
                         mediaItem.setArtist(artist);
-
-
-
                     }
 
                     cursor.close();
-
-
                 }
-
-
                 //Handler发消息
                 handler.sendEmptyMessage(10);
-
-
             }
         }.start();
 
@@ -198,9 +187,6 @@ public class AudioPager extends BasePager {
 
             return false;
         }
-
         return true;
     }
-
-
 }

@@ -138,7 +138,7 @@ public class MainActivity extends FragmentActivity {
                 return true;
             }else  if(!isExit){
                 isExit = true;
-                Toast.makeText(MainActivity.this,"再按一次退出程序！",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"再按一次退出程序",Toast.LENGTH_SHORT).show();
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
